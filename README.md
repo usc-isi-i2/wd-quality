@@ -4,6 +4,8 @@
 
 [Comprehensive Constraints Analysis - Final.ipynb](https://github.com/usc-isi-i2/wd-quality/blob/main/Comprehensive%20Constraints%20Analysis%20-%20Final.ipynb) - This notebook has the queries executed for the dataset to check type, value type, item requires, symmetric and inverse constraints.
 
-[Comprehensive Constraints Analysis - With Removed Statements - Final.ipynb](https://github.com/usc-isi-i2/wd-quality/blob/main/Comprehensive%20Constraints%20Analysis%20-%20With%20Removed%20Statements%20-%20Final.ipynb) - This notebook has the queries executed for the dataset with the removed statements to check type, value type, item requires, symmetric and inverse constraints.
+[Comprehensive Constraints Analysis - With Removed Statements - Final.ipynb](https://github.com/usc-isi-i2/wd-quality/blob/main/Comprehensive%20Constraints%20Analysis%20-%20With%20Removed%20Statements%20-%20Final.ipynb) - This notebook has the queries executed for the dataset with the removed statements to check type, value type, item requires, symmetric and inverse constraints. The script is almost similar to that for the previous one. The difference lies in the datasets used for determining violations.
 
-[Finalized Queries - Correct Segregation.ipynb](https://github.com/usc-isi-i2/wd-quality/blob/main/Finalized%20Queries%20-%20Correct%20Segregation.ipynb) - This notebook has the queries executed to determine statistics of the removed statements.
+[Deprecated Statements Analysis.ipynb](https://github.com/usc-isi-i2/wd-quality/blob/main/Deprecated%20Statements%20Analysis.ipynb) - This notebook has the results of analysing deprecated statements.
+
+[Removed Statements Analysis.ipynb](https://github.com/usc-isi-i2/wd-quality/blob/main/Removed%20Statements%20Analysis.ipynb) - This notebook has the queries executed to determine statistics of the removed statements.
