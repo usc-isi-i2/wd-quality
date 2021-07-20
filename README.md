@@ -27,3 +27,51 @@ The repository consists of a series of notebooks which were used to perform the 
 The following spreadsheet contains the constraints we have encoded in our analysis:
 [Spreadsheet with constraint properties](https://docs.google.com/spreadsheets/u/1/d/1EueS5dAiGVWa8N1MisgY1i6QE369EOcOieEiDyeAOzk/edit#gid=0)
 
+The repository also includes a folder [Scripts](https://github.com/usc-isi-i2/wd-quality/tree/main/Scripts) which has 2 subfolders for the 2 sets of constraint violation scripts. However, note that these scripts will not be directly executable. In order to reproduce these results, following commands would need to be executed:
+
+```
+.
+├── allConstraintsAnalysis_Final
+├── allConstraintsAnalysis_WRemoved_Final
+├── Notebooks
+│   └── wd-quality ==> ========= GITHUB REPO ROOT ========================
+│       ├── Archived
+│       └── Scripts
+│           ├── ViolationCheckScripts
+│           └── ViolationWithRemovedStatementsCheckScripts
+├── propertiesSplit_Final
+│   └── checkViolations ==> ==== CORRECT LOCATION of ViolationCheckScripts scripts =======
+│       └── exec_logs
+├── propertiesSplit_WRemoved_Final
+│   └── checkViolations ==> ==== CORRECT LOCATION of ViolationWithRemovedStatementsCheckScripts scripts =======
+│       └── exec_logs
+```
+
+The output folders `allConstraintsAnalysis_Final`, `allConstraintsAnalysis_WRemoved_Final` need to have this folder structure:
+
+```
+.
+├── codependencyConstraint
+│   ├── Mand
+│   ├── Mand_Normal
+│   ├── Mand_Sugg_Normal
+│   ├── Normal
+│   └── Suggestion
+├── inverseConstraint
+│   ├── mandatory
+│   ├── normal
+│   └── suggestion
+├── symmetricConstraint
+│   ├── mandatory
+│   ├── normal
+│   └── suggestion
+├── typeConstraint
+│   ├── mandatory
+│   ├── normal
+│   └── suggestion
+└── valueTypeConstraint
+    ├── mandatory
+    ├── normal
+    └── suggestion
+```
+
