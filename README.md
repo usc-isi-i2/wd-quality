@@ -14,6 +14,8 @@ This repository contains the materials used  for the paper ["A Study of the Qual
 ```
 Data used in the paper is accessible from [https://w3id.org/wd_quality/](https://w3id.org/wd_quality/)
 
+## Notebooks
+
 The repository consists of a series of notebooks which were used to perform the different analyses in the paper: 
 
 [Comprehensive Constraints Analysis - Final.ipynb](https://github.com/usc-isi-i2/wd-quality/blob/main/Comprehensive%20Constraints%20Analysis%20-%20Final.ipynb) - This notebook has the queries executed for the dataset to check type, value type, item requires, symmetric and inverse constraints.
@@ -27,7 +29,9 @@ The repository consists of a series of notebooks which were used to perform the 
 The following spreadsheet contains the constraints we have encoded in our analysis:
 [Spreadsheet with constraint properties](https://docs.google.com/spreadsheets/u/1/d/1EueS5dAiGVWa8N1MisgY1i6QE369EOcOieEiDyeAOzk/edit#gid=0)
 
-The repository also includes a folder [Scripts](https://github.com/usc-isi-i2/wd-quality/tree/main/Scripts) which has 2 subfolders for the 2 sets of constraint violation scripts. However, note that these scripts will not be directly executable. In order to reproduce these results, following commands would need to be executed:
+## Sample queries
+
+This repository includes a folder [Scripts](https://github.com/usc-isi-i2/wd-quality/tree/main/Scripts) which has 2 subfolders for the 2 sets of constraint violation scripts. However, note that these scripts **will not be directly executable**. In order to reproduce these results, the following folder structure is assumed:
 
 ```
 .
