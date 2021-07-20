@@ -1,6 +1,6 @@
 # wd-quality
 
-This repository contains the materials used  for the paper ["A Study of the Quality of Wikidata" by Kartik Shenoy, Filip Ilievski, Daniel Garijo, Daniel Schwabe and Pedro Szekely](https://arxiv.org/abs/2107.00156).
+This repository contains the materials used  for the paper ["A Study of the Quality of Wikidata" by Kartik Shenoy, Filip Ilievski, Daniel Garijo, Daniel Schwabe and Pedro Szekely](https://arxiv.org/abs/2107.00156). A pre-print can be cites as proposed below (a journal paper is currently under revision):
 
 ```
 @misc{shenoy2021study,
