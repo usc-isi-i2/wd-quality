@@ -12,7 +12,7 @@ This repository contains the materials used  for the paper ["A Study of the Qual
       primaryClass={cs.AI}
 }
 ```
-Data used in the paper is accessible from [https://w3id.org/wd_quality/](https://w3id.org/wd_quality/)
+Data used in the paper is accessible from [https://w3id.org/wd_quality#data](https://w3id.org/wd_quality#data)
 
 ## Notebooks
 
